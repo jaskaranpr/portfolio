@@ -1,0 +1,72 @@
+.nav-container{
+     display: flex;
+     width: 60%;
+     height:60px;
+     align-items: center;
+     margin: auto;
+     justify-content: space-between;
+}
+.nav-container li{
+    font-family:"Arial";
+    opacity: 80%;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 15px;
+}
+.nav-container ul{
+    display:flex;
+    justify-content: space-between;
+}
+.nav-container ul li{
+    list-style: none;
+}
+.nav-container ul>:nth-child(2){
+    margin: 0px 40px;
+}
+.logo{
+    font-family:"Arial";
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 20px;
+}
+.resume-btn{
+    padding:8px 15px;
+    border:none;
+    opacity: 80%;
+    font-weight: bold;
+    font-size: 16px;
+    color:white;
+    border-radius: 20px;
+    display:flex;
+    align-items: center;
+    position: relative;
+    justify-content: space-evenly;
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0.294);
+}
+.resume-btn:hover{
+    opacity: 100%;
+    background-color:rgba(255, 255, 255, 0.472);
+}
+.resume-btn>.btn-icon>.icon{
+    width: 17px;
+    transform: margin 1s ease;
+    filter: invert();
+}
+.resume-btn >.btn-icon>.line{
+  width: 5px;
+  height: 2px;
+  top:52.8%;
+  border-radius: 10px;
+  transform:translateY(-50%);
+  position:absolute;
+  opacity: 70%;
+  background-color:rgb(255, 255, 255);
+}
+.resume-btn>.btn-icon{
+    width: 20px;
+    display:flex;
+    align-items: center;
+    position: relative;
+    justify-content:center;
+}
